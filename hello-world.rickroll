@@ -1,0 +1,4 @@
+take me to ur heart # main function
+    give message up "Never gonna give you up, never gonna let you down~\n" # define message
+    i just wanna tell u how im feeling message # print message
+say goodbye # exit main
