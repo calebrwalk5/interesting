@@ -32,7 +32,7 @@ section .data
     x db '9'
     y db '60'
     msg db  "the sum of x and y is "
-    len equ $ - msg
+    len equ $ - msg                 ; it says 69 kekw
 
 segment .bss
 
