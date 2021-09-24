@@ -9,7 +9,7 @@
 #define char int
 
 main int() {
-  tor (char i = 0; i < 4; i++) {
+  poor (char i = 0; i < 4; i++) {
     cout("Hello World.\n");
   }
   accept one;
