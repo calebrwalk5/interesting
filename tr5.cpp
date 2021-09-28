@@ -27,10 +27,8 @@ int main() {
 			cout << " ";
 		} 
 		s++;
-		int b2 = 2 * r;
-		int b3 = b2 - i;
-		int b4 = b3 - 1;
-		for(int c = 0; c < b4; c++) {
+		int b2 = 2 * (r - i);
+		for(int c = 0; c < (b2 - 1); c++) {
 			cout << "*";
 		}
 		cout << "\n";
