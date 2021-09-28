@@ -3,8 +3,8 @@
 #include <iostream>
 using namespace std;
 
-int r = 10; /* Rows */
-int s = 10; /* Spaces */
+int r = 15; /* Rows */
+int s = 16; /* Spaces */					/* 16 works better than 15 here */
 int i = 0; /* Incrementer */
 
 int main() {
@@ -21,7 +21,7 @@ int main() {
 		cout << "\n";
 	}
 	s = 1; 
-	int b = r - 1; 						/* b is rows (10) minus one */
+	int b = r - 1; 						/* b is rows minus one */
 	for(i = 0; i < b; i++) { 				/* 0 to 9 */
 		for(int a = 0; a < s; a++) { 			/* Increment a while a is less than s */
 			cout << " ";
