@@ -1,3 +1,4 @@
+/* literally just sort things really really fast */
 #include <stdio.h>
  
 void swap(int *xp, int *yp) {
